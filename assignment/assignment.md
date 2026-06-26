@@ -11,7 +11,8 @@
 상태 확인 : git status
 깃허브 연결 : git remote add origin https://github.com/사용자계정/리포지토리명.git
 연결 확인 : git remote -v
-main 브렌치명으로 바꾸기 : git branch -M main
+main 브렌치명으로 바꾸기 : 
+git branch -M main
 # --------------------------------------------
 최초 커밋 : git add .
 git commit -m "메세지반드시입력"
@@ -31,7 +32,9 @@ git branch -a
 *main
 remotes/origin/team01
 remotes/origin/team02
-
+# 위의 내용이 출력이 안 되면, 깃허브의 최신 브렌치 목록을 가져오지 않았기 때문임
+git fetch origin
+git branch -a
 # team01 브렌치로 변경 (checkout)
 git checkout -b team01 origin/team01
 또는
