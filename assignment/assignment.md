@@ -6,6 +6,21 @@
 # 영화 리뷰 감성 분류 모델 만들어 학습 및 평가
 
 # 깃허브에 nlp_model_project 리포지토리 생성하고, 프로젝트 최초 커밋함
+파이참 터미널에서 : 
+깃초기화 : git init
+상태 확인 : git status
+깃허브 연결 : git remote add origin https://github.com/사용자계정/리포지토리명.git
+연결 확인 : git remote -v
+main 브렌치명으로 바꾸기 : git branch -M main
+# --------------------------------------------
+최초 커밋 : git add .
+git commit -m "메세지반드시입력"
+커밋 확인 : git log --oneline
+main 푸시 : 
+git push -u origin main
+깃허브 브라우저에서 새로고침해서 확인
+# -------------------------------------------------
+=> 파이참 왼쪽 '커밋' 뷰에서 커밋 및 푸시 해도 됨
 # 해당 리포지토리에서 브렌치 2개 추가 : team01, team02
 
 # 해당 프로젝트 터미널 (또는 Git 메뉴 또는 Git 뷰)에서  현재 브렌치 확인 : *main
