@@ -49,9 +49,9 @@ git branch
 2. assignment 폴더 아래에 LSTM_movie_review.py 만듦  <= lstm_imdb_lightning.py 파일 복사해서 rename 함
 3. 네이버 영화 리뷰 데이터로 감성 분석 모델로 수정해서 학습 및 평가하고 실행 완료함
 4. 브렌치에서 작업한 내용을 깃허브 리포지토리로 커밋 (메세지 추가) > 푸시함
-
-git commit -m "LSTM 네이버 영화 리뷰 감성 분석 모델 추가"
-git push origin team01
+변경파일 확인 : git status
+커밋 : git commit -m "LSTM 네이버 영화 리뷰 감성 분석 모델 추가"
+푸시 : git push origin team01
 
 5. 깃허브 리포지토리에 브렌치 이름 선택하면, 푸시한 정보 확인할 수 있음
 6. 
